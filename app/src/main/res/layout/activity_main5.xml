@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main5Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="589dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:gravity="center_vertical"
+            android:text="Enter the Account number" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Name" />
+
+        <Button
+            android:id="@+id/button10"
+            android:onClick="findstudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:onClick="registerdata"
+            android:layout_marginLeft="15dp"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="Entry" />
+
+        <Button
+            android:id="@+id/button8"
+            android:onClick="retrievedata"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="search" />
+
+        <Button
+            android:id="@+id/button9"
+            android:onClick="registerstudent"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="student register" />
+    </LinearLayout>
+
+</LinearLayout>

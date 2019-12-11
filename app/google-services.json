@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "348563093331",
+    "firebase_url": "https://hosteldb-ba08c.firebaseio.com",
+    "project_id": "hosteldb-ba08c",
+    "storage_bucket": "hosteldb-ba08c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348563093331:android:2095dd400ac1aec3ffd3a6",
+        "android_client_info": {
+          "package_name": "com.example.selvaprojecthostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348563093331-lufv82l9a23uqhmnk7d7ka1123nmmabg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDCzk8dFn0EJduyM1tFqB3TC_uA_HpvFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348563093331-lufv82l9a23uqhmnk7d7ka1123nmmabg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
